@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    /*RÖR INTE! Gör så border på maltesost fungerar och inte lägger till extrapixlar*/
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgb(179, 179, 180);
+    background-image: url(img/maltesostlokal.jpg);
+    background-size: cover;
+}
+
+.topBar{
+    margin: 0;
+    height: 150px;
+}
+
+.htext{
+    margin: 0;
+    background-color: rgb(240, 240, 0);
+    height: 70%;
+    transition: height 1500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.htext:hover{
+    height: 100%;
+}
+
+.htext:hover  .tryckMeny{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 100px;
+}
+
+.htext  .tryckMeny{
+    visibility: hidden;
+    opacity: 0;
+    width:80px;
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+    color: black;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    /*RÖR INTE*/
+}
+
+.maltesost{
+    align-self: center;
+}
+.centerBar{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    margin: auto;    
+    height: 100%;
+    border: solid black 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.vitBanan{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+
+.LBildText h1{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bildColumn{
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bildColumn img{
+    width: 200px;
+    border: solid black 2px;
+}
+
+.bildContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 2px;
+}
+
+.bildContainer p{
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.penis img{
+    height: 210px;
+    width: auto;
+}
+
+.vitTabBild{
+    margin: auto;
+    margin-top: 2vw;
+    width: 850px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: solid black 3px;
+}
+
+.malwa h1{
+    color: rgb(179, 179, 180);
+}
